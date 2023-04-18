@@ -24,5 +24,5 @@ python -m pip install -r requirements.txt
 ## Usage
 
 ```sh
-run_async_notebook.sh notebook.ipynb norway
+./run_async_notebook.sh notebook.ipynb norway
 ```
