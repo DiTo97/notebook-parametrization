@@ -7,6 +7,8 @@
 notebook=$1
 config=$2
 
+python preprocessing.py $notebook
+
 parameters="configs/$config.yaml"
 
 stdout="logs/$config.out"
