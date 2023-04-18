@@ -7,12 +7,14 @@
 notebook=$1
 config=$2
 
-python preprocessing.py $notebook
-
 parameters="configs/$config.yaml"
 
 stdout="logs/$config.out"
 stderr="logs/$config.err"
 
+python preprocessing.py $notebook
+
 run_notebook="papermill $notebook - -f $parameters"
+
+mkdir -p logs/
 nohup $run_notebook 1> $stdout 2> $stderr &
