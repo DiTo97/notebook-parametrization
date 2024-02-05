@@ -6,7 +6,7 @@ A cross-platform example of notebook background execution and parametrization wi
 
 ```sh
 git clone https://github.com/DiTo97/notebook-parametrization.git
-cd papermill
+cd notebook-parametrization
 ```
 
 ```sh
