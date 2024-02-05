@@ -22,8 +22,10 @@ if "%~1"=="" goto :continue
 if /i "%~1"=="--configdir" (
     set configdir=%~2
     shift /1
+    shift /1
 ) else if /i "%~1"=="--logdir" (
     set logdir=%~2
+    shift /1
     shift /1
 ) else if /i "%~1"=="--background" (
     set background=1
