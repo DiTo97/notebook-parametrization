@@ -1,6 +1,6 @@
 # <a href="https://github.com/nteract/papermill"><img src="https://media.githubusercontent.com/media/nteract/logos/master/nteract_papermill/exports/images/png/papermill_logo_wide.png" height="48px" /></a>
 
-A cross-platform example of notebook background execution and parametrization with papermill.
+A cross-platform example of notebook parametrization in the background with papermill.
 
 ## setup
 
