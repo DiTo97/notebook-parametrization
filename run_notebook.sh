@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-# run_notebook.sh - It runs notebook parametrization in the background
-# --------------------------------------------------------------------
+# run_notebook - It runs notebook parametrization in the background
+# -----------------------------------------------------------------
 configdir="configs"
 logdir="logs"
 background=0
