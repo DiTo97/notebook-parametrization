@@ -22,7 +22,7 @@ python -m pip install -r requirements.txt
 ## usage
 
 ```sh
-./run_notebook.bat <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]  # windows
+.\run_notebook.bat <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]  # windows
 ```
 
 ```sh
@@ -32,7 +32,7 @@ python -m pip install -r requirements.txt
 ## example
 
 ```sh
-./run_notebook.bat notebook.ipynb norway --background  # windows
+.\run_notebook.bat notebook.ipynb norway --background  # windows
 ```
 
 ```sh
