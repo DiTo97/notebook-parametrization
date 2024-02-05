@@ -1,4 +1,4 @@
-"""A script that prepares a notebook for compatibility with Papermill"""
+"""A script that prepares a notebook for compatibility with papermill"""
 import argparse
 import json
 import typing
@@ -7,7 +7,7 @@ from typing import Any
 import papermill
 
 
-def parse_args() -> typing.Dict[str, Any]:
+def parse_args() -> dict[str, Any]:
     parser = argparse.ArgumentParser()
     parser.add_argument("filename", type=str, help="The notebook filename")
 
