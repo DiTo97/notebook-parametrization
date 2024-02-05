@@ -8,7 +8,7 @@ background=0
 
 if [ $# -lt 2 ]; then
     echo "Error: not enough arguments"
-    echo "Usage: $0 notebook config [--configdir <configdir>] [--logdir <logdir>] [--background]"
+    echo "Usage: $0 <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]"
     exit 1
 fi
 
@@ -33,7 +33,7 @@ while (( "$#" )); do
           ;;
         *)
           echo "Error: invalid argument"
-          echo "Usage: $0 notebook config [--configdir <configdir>] [--logdir <logdir>] [--background]"
+          echo "Usage: $0 <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]"
           exit 1
     esac
 done
