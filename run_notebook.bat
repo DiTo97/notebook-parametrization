@@ -7,7 +7,7 @@ set background=0
 
 if "%~1"=="" (
     echo Error: not enough arguments
-    echo Usage: %~nx0 <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]
+    echo Usage: %~nx0 ^<notebook^> ^<config^> [--configdir ^<configdir^>] [--logdir ^<logdir^>] [--background]
     exit /b
 )
 
@@ -30,7 +30,7 @@ if /i "%~1"=="--configdir" (
     shift /1
 ) else (
     echo Error: invalid argument
-    echo Usage: %~nx0 <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]
+    echo Usage: %~nx0 ^<notebook^> ^<config^> [--configdir ^<configdir^>] [--logdir ^<logdir^>] [--background]
     exit /b
 )
 goto :loop
