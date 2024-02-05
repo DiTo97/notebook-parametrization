@@ -21,12 +21,20 @@ python -m pip install -r requirements.txt
 
 ## usage
 
-```cmd
-./run_notebook.bat notebook.ipynb norway --background
+```sh
+./run_notebook.bat <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]  # windows
 ```
 
-or
+```sh
+./run_notebook.sh  <notebook> <config> [--configdir <configdir>] [--logdir <logdir>] [--background]  # linux or macOS
+```
+
+## example
 
 ```sh
-./run_notebook.sh  notebook.ipynb norway --background
+./run_notebook.bat notebook.ipynb norway --background  # windows
+```
+
+```sh
+./run_notebook.sh  notebook.ipynb UK     --background  # linux or macOS
 ```
