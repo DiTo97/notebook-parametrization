@@ -10,8 +10,8 @@ cd notebook-parametrization
 ```
 
 ```sh
-python -m venv venv
-source venv/bin/activate
+conda create --name=notebook-parametrization python=3.10
+conda activate notebook-parametrization
 ```
 
 ```sh
