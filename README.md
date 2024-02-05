@@ -1,6 +1,6 @@
 # <a href="https://github.com/nteract/papermill"><img src="https://media.githubusercontent.com/media/nteract/logos/master/nteract_papermill/exports/images/png/papermill_logo_wide.png" height="48px" /></a>
 
-An example of background notebook parametrization with Papermill using [nohup](https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html#nohup-invocation).
+An example of cross-platform background notebook parametrization with papermill.
 
 ## setup
 
@@ -21,6 +21,12 @@ python -m pip install -r requirements.txt
 
 ## usage
 
+```cmd
+./run_notebook.bat notebook.ipynb norway --background
+```
+
+or
+
 ```sh
-./run_notebook.sh notebook.ipynb norway --background
+./run_notebook.sh  notebook.ipynb norway --background
 ```
